@@ -20,6 +20,8 @@
 ** suitability of this software for any purpose.
 */
 
+#include <unistd.h>
+
 #ifdef HAVE_CONFIG_H
 #include "config.h"
 #endif
