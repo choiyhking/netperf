@@ -53,6 +53,9 @@ char    netlib_id[]="\
 /*                                                              */
 /****************************************************************/
 
+#define _GNU_SOURCE
+#include <sys/sendfile.h>
+
 #ifdef HAVE_CONFIG_H
 #include <config.h>
 #endif
